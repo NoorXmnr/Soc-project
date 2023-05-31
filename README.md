@@ -20,5 +20,7 @@ Installer FILEZILLA
 Dans un cas reél le serveur FTP serait en ligne mais comme nous sommes en local, FileZilla nous servira d'un serveur FTP.
 
 
+![Cover](https://github.com/NoorXmnr/Soc-project/blob/main/image/Capturefile.PNG)
+
 
 
