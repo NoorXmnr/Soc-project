@@ -22,5 +22,20 @@ Dans un cas reél le serveur FTP serait en ligne mais comme nous sommes en local
 
 ![Cover](https://github.com/NoorXmnr/Soc-project/blob/main/image/Capturefile.PNG)
 
+![Cover](https://github.com/NoorXmnr/Soc-project/blob/main/image/Capture1.PNG)
+
+Deux fichier vont se créer : TEMP ET PULL
+
+![Cover](https://github.com/NoorXmnr/Soc-project/blob/main/image/MicrosoftTeams-image%20(1).png)
+
+Dans le dossier TEMP, on aura toute l'extraction de la machine.
+Dans le dossier PULL, aura toute l'extraction du serveur FTP (cas reel sa sera sur internet et pas en local)
+
+![Cover](https://github.com/NoorXmnr/Soc-project/blob/main/image/MicrosoftTeams-image%20(2).png)
+
+Ici, vous voyez bien que tout mon bureau a été transferer sur le serveur FTP.
+
+Cependant, je vous ai montrer un exemple avec l'extraction d'un bureau ou des document.
+Vous pouvez également mettre le chemin d'une clé USB/disque.
 
 
